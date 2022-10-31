@@ -5,6 +5,5 @@ class RootController < ApplicationController
       format.html
       format.json { render json: @greetings }
     end
-
   end
 end
