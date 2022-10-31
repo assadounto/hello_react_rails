@@ -9,8 +9,7 @@ export default function Greeting() {
   const dispatch=useDispatch()
   useEffect(()=>{
     dispatch(getGreetings())
-    console.log('helo')
   },[]);
   console.log(state)
-  return (<h1>{state.message.message}jjj</h1>);
+  return (<h1>{state.message.message}</h1>);
 }
