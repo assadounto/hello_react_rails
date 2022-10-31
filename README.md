@@ -46,7 +46,7 @@ rails db:migrate
 Start server with:
 
 ```
-foreman start -f Profile.dev
+foreman start -f Procfile.dev
 ```
 
 Open http://localhost:3000/ in your browser.
